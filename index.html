@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Better-Web-Publisher" content="zapub_9uzUAwDGYWSPAhZ8iTgilyiQ">
+  <title>1CentWunder Radio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .player {
+      max-width: 480px;
+      margin: 30px auto;
+      padding: 24px;
+      background: #202020;
+      border: 1px solid #444;
+      border-radius: 16px;
+    }
+    h1 { color: #ff3838; }
+    p { line-height: 1.6; }
+    audio { width: 100%; margin: 18px 0; }
+    .note { color: #bbb; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main class="player">
+    <h1>1CentWunder Radio</h1>
+    <h2>MDR KLASSIK</h2>
+    <p>Musik hören und eine kleine Auszeit genießen.</p>
+
+    <audio controls preload="none">
+      <source src="https://mdr-klassik-live.icecastssl.mdr.de/mdr-klassik-live/stream.mp3" type="audio/mpeg">
+      Dein Browser unterstützt die Audiowiedergabe leider nicht.
+    </audio>
+
+    <p class="note">
+      Drücke auf Play, um den Radiostream zu starten.
+      Die Wiedergabe beginnt erst nach deinem Klick.
+    </p>
+    <p>1CentWunder – gemeinsam Gutes für Tiere ermöglichen.</p>
+  </main>
+</body>
+</html>
